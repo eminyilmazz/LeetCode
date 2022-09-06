@@ -1,3 +1,3 @@
 # yo hello hi hey
 
-Dumping my solutions on LeetCode. Thanks for peeking
+Dumping my solutions for LeetCode challenges. Thanks for peeking
