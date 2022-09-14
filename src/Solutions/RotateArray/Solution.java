@@ -3,7 +3,7 @@ package Solutions.RotateArray;
 /*
 * An easy solution that uses more memory. Puts the value in the output array at index of modulus of steps added to the original index.
 *
-* This solution was not submittable to LeetCode as it is designed to return void and be used with pointers. Thus, not applicable to Java.
+* This solution was not submittable to LeetCode as it is designed to return void and be used with pointers/reference.
 *
 * //TODO: Implement a solution that uses less memory. Note: Modulus, temp swaps?
  */
