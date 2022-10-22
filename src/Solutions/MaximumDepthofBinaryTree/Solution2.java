@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Iterative BFS. This has a bug.
+ * Iterative BFS.
  * TreeNode is defined in Solution.java
  * */
 
@@ -17,7 +17,8 @@ public class Solution2 {
         else {
             queue.add(node);
             while (!queue.isEmpty()) {
-                for (int i = 0; i < queue.size(); i++) {
+                int qSize = queue.size();
+                for (int i = 0; i < qSize; i++) {
                     node = queue.remove();
                     if (node.left != null) {
                         queue.add(node.left);
