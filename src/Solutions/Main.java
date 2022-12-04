@@ -1,11 +1,11 @@
 package Solutions;
 
 
-import Solutions.FindTheOddInt.Solution;
+import Solutions.IsSubsequence.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        Solutions.FindTheOddInt.Solution solution = new Solution();
-        System.out.println(solution.findIt(new int[]{1,1,2,2,3}));
+        Solution solution = new Solution();
+        solution.isSubsequence("abc", "ahbgdc");
     }
 }
