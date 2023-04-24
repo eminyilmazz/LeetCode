@@ -1,10 +1,17 @@
 package main
 
 import (
-	"./TwoSum"
+	"./MergeTwoSortedLists"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(TwoSum.TwoSum([]int{2, 7, 11, 15}, 9))
+	l1 := &MergeTwoSortedLists.ListNode{Val: 1, Next: &MergeTwoSortedLists.ListNode{Val: 2, Next: &MergeTwoSortedLists.ListNode{Val: 4, Next: &MergeTwoSortedLists.ListNode{Val: 8}}}}
+	l2 := &MergeTwoSortedLists.ListNode{Val: 1, Next: &MergeTwoSortedLists.ListNode{Val: 3, Next: &MergeTwoSortedLists.ListNode{Val: 4}}}
+
+	merged := MergeTwoSortedLists.MergeTwoLists(l1, l2)
+	for merged != nil {
+		fmt.Printf("%d ", merged.Val)
+		merged = merged.Next
+	}
 }
